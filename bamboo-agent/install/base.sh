@@ -8,6 +8,8 @@ useradd --create-home --shell /bin/bash --comment "Bamboo User" $BAMBOO_USER
 # Accept EULA for MS fonts
 echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | debconf-set-selections # Accept EULA for MS fonts
 
+apt-get update && apt-get upgrade -y
+
 # Install common packages
 eatmydata -- apt-get -yq install \
   curl wget ssh-client wkhtmltopdf \
