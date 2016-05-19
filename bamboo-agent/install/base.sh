@@ -13,7 +13,7 @@ eatmydata -- apt-get -yq install \
   curl wget ssh-client wkhtmltopdf \
   nodejs xvfb git subversion imagemagick graphicsmagick \
 	freetds-bin freetds-dev libfontconfig1 ttf-mscorefonts-installer \
-  uuid-dev libqt4-dev libqt4-gui fop libservlet2.4-java 
+  libqt4-dev libqt4-gui fop libservlet2.4-java
 
 # Add bash and git as bamboo commands
 bamboo-capability-command bash git
